@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>img/close.png</file>
+        <file>img/closeIcon.png</file>
+        <file>img/newFile.png</file>
+        <file>img/newFolder.png</file>
+        <file>img/Open.png</file>
+        <file>img/openIcon.png</file>
+        <file>img/save.png</file>
+        <file>img/saveIcon.png</file>
+        <file>img/stop.png</file>
+    </qresource>
+</RCC>

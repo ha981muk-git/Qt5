@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QTimer>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -14,15 +15,11 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-
-private slots:
-    void on_actionNew_2_triggered();
-
-    void on_actionExit_triggered();
-
-    void on_actionOpen_triggered();
+public slots:
+       void myfunction();
 
 private:
     Ui::MainWindow *ui;
+    QTimer *timer;
 };
 #endif // MAINWINDOW_H
